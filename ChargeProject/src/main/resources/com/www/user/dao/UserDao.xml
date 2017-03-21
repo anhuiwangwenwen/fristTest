@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="com.www.user.dao.UserDao">
+	
+	<!-- 实体与数据库表字段映射 -->
+	<resultMap id="userVo" type="com.www.pojo.User">
+        
+        <result property="userName" column="userName"/>
+        <result property="workcode" column="workcode"/>
+        <result property="status" column="status"/>
+        
+	</resultMap>
+	
+	<!-- 根据goodsId查询商品信息 -->
+    <select id="getUserByWorkCode" resultMap="userVo">
+		SELECT *
+		FROM users 
+	    WHERE 
+		workcode = #{workcode}
+	</select>
+	
+	
+</mapper>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<!-- changes from the defaults -->
+		<setting name="lazyLoadingEnabled" value="false" />
+		<setting name="cacheEnabled" value="false" />
+		<setting name="mapUnderscoreToCamelCase" value="true" />  
+	</settings>
+     
+
+	<!-- 分页插件(通过在mybatis底层拦截查询动作，动态解析组装sql语句实现动态分页功能) -->
+<!-- 	<plugins>
+		<plugin interceptor="com.laiyifen.mirage.filter.PageInterceptor"></plugin>
+	</plugins> -->
+	
+	
+</configuration>
