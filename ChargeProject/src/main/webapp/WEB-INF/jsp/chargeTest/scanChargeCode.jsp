@@ -7,11 +7,10 @@
 
 <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-<title>登录</title>
+<title>充电机类型</title>
 </head>
 <body>
 	<!-- 导航 -->
-	<!--设置温湿度 -->
 	<div>
 	<ul class="nav nav-tabs">
 	  <li role="presentation" class="active"><a href="#">Home</a></li>

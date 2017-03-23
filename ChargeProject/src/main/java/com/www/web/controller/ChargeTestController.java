@@ -32,7 +32,8 @@ public class ChargeTestController {
 	public ModelAndView index(){
 		logger.info("打开充电机开始程序......");
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("chargeTest/startTestPage");
+		mv.setViewName("chargeTest/chargeTestPage");
+//		mv.setViewName("chargeTest/startTestPage");
 		return mv;
 	}
 	

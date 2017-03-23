@@ -7,18 +7,24 @@
 
 <link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 
-<title>登录</title>
+<script src="../dwr/engine.js"></script>  
+<script src="../dwr/util.js"></script>  
+<script src="../dwr/interface/TestService.js"></script>  
+          
+<script>
+function abc(){
+	TestService.sayHello("w122312o",callback);
+}
+	
+    function callback(data){
+    	alert(data);
+    }
+</script> 
+
+<title>测试程序</title>
 </head>
 <body>
 	<!-- 导航 -->
-	<!--设置温湿度 -->
-	<div>
-	<ul class="nav nav-tabs">
-	  <li role="presentation" class="active"><a href="#">Home</a></li>
-	  <li role="presentation"><a href="#">Profile</a></li>
-	  <li role="presentation"><a href="#">Messages</a></li>
-	</ul>
-	</div>
-	<div class="panel panel-primary">...</div>
+	<a href="#" onclick="abc();">test</a>
 </body>
 </html>

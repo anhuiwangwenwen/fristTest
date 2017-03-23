@@ -6,6 +6,21 @@
   <packaging>war</packaging>
   <dependencies>
   
+  <!-- dwr远程调用jar -->
+  <dependency>
+    <groupId>org.directwebremoting</groupId>
+    <artifactId>dwr</artifactId>
+    <version>3.0.2-RELEASE</version>
+  </dependency>
+  
+  <!-- 串口通讯包 -->
+  <dependency>
+    <groupId>org.rxtx</groupId>
+    <artifactId>rxtx</artifactId>
+    <version>2.1.7</version>
+</dependency>
+  
+  
   <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>fastjson</artifactId>
