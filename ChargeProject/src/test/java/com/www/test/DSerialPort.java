@@ -16,7 +16,7 @@ import gnu.io.SerialPortEventListener;
  
 public class DSerialPort implements Runnable, SerialPortEventListener {  
   
-    private String appName = "串口通讯测试[集成显卡2012]";  
+    private String appName = "串口通讯测试[集成显卡2012";  
     private int timeout = 2000;//open 端口时的等待时间  
     private int threadTime = 0;  
       
